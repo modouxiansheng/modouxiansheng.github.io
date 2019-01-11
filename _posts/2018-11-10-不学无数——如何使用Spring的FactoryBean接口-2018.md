@@ -257,8 +257,7 @@ public class SingleBeanFactoryTest extends BaseTest{
 > 使用`FactoryBean `能够在Spring中更好更便捷的创建管理一些有着负责构造逻辑的实体类。
 
 
-### 源码可在[github](https://github.com/modouxiansheng/Spring-Practice/tree/master/src/main/java/com/example/springpractice/springpractice/Spring/BeanFactory)中查看
-
+### 源码可在[github](https://github.com/modouxiansheng/Spring-Practice/tree/master/src/main/java/com/example/springpractice/springpractice/Spring/FactoryBean)中查看
 
 
 
