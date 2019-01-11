@@ -254,7 +254,7 @@ public class SingleBeanFactoryTest extends BaseTest{
 
 从结果中我们可以看到`SingleUserFactory`工厂类创建的都是单例的对象，而`NonSingleUserFactory`创建的都是非单例的对象。如果是创建单例的那么就无需设置`singleton`的值，因为他是默认为`True`的。
 
-> 使用`FactoryBean `能够在Spring中更好更便捷的创建管理一些有着负责构造逻辑的实体类。
+> 使用`FactoryBean `能够在Spring中更好更便捷的创建管理一些有着复杂构造逻辑的实体类。
 
 
 ### 源码可在[github](https://github.com/modouxiansheng/Spring-Practice/tree/master/src/main/java/com/example/springpractice/springpractice/Spring/FactoryBean)中查看
