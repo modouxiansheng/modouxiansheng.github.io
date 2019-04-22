@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Mac上最简单明了的利用Docker搭建Redis集群.md        # 标题
-subtitle:   Mac上最简单明了的利用Docker搭建Redis集群.md        #副标题
+title:      Mac上最简单明了的利用Docker搭建Redis集群        # 标题
+subtitle:   Mac上最简单明了的利用Docker搭建Redis集群        #副标题
 date:       2019-04-22          # 时间
 author:     不学无数                      # 作者
 header-img: img/post-bg-hacker.jpg    #这篇文章标题背景图片
