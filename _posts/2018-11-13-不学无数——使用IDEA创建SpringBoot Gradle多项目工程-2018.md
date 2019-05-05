@@ -34,7 +34,7 @@ tags:                               #标签
 
 ### 5. 此时一个Gradle的项目已经创建好了
 
-![](https://ws4.sinaimg.cn/large/006tNc79ly1fz9sorvtfaj30ih0bdgm9.jpg)
+![](http://ws4.sinaimg.cn/large/006tNc79ly1fz9sorvtfaj30ih0bdgm9.jpg)
 
 ### 6. 然后如果点击创建一个Module
 

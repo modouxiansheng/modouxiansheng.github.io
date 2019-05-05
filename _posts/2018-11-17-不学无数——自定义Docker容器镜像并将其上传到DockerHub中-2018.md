@@ -165,11 +165,11 @@ CONTAINER ID        IMAGE               COMMAND             CREATED
 
 3. 填写信息
 
-	![](https://ws4.sinaimg.cn/large/006tKfTcly1g0ez9psvb7j30u00vin2d.jpg)
+	![](http://ws4.sinaimg.cn/large/006tKfTcly1g0ez9psvb7j30u00vin2d.jpg)
 
 4. 在本机登录自己的Docker Hub 账号，命令是`docker login`
 
-	![](https://ws4.sinaimg.cn/large/006tKfTcly1g0ezccdbbgj31f005igmz.jpg)
+	![](http://ws4.sinaimg.cn/large/006tKfTcly1g0ezccdbbgj31f005igmz.jpg)
 
 5. 用`docker tag`命令为自己的镜像取一个完整的名字包括版本号，v1为版本号
 
@@ -189,6 +189,6 @@ CONTAINER ID        IMAGE               COMMAND             CREATED
 
 本文的例子参考自极客时间中张磊写的深入剖析Kubernetes，有兴趣的可以查看
 
-![](https://ws4.sinaimg.cn/large/006tKfTcly1g0f6kn6rsdj30u01hcdk2.jpg)
+![](http://ws4.sinaimg.cn/large/006tKfTcly1g0f6kn6rsdj30u01hcdk2.jpg)
 
 

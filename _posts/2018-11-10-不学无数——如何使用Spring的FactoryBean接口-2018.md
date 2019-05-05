@@ -153,7 +153,7 @@ public class UserFactory implements FactoryBean<User> {
 
 此时我们运行就会发现执行顺序
 
-![](https://ws4.sinaimg.cn/large/006tNc79ly1fz1lab5wihj30hh0a3jsv.jpg)
+![](http://ws4.sinaimg.cn/large/006tNc79ly1fz1lab5wihj30hh0a3jsv.jpg)
 
 ## `AbstractFactoryBean `类
 

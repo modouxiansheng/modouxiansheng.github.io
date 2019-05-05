@@ -52,7 +52,7 @@ public class FeignDemoApiImpl implements FeignDemoApi{
 
 发现在客户端进行接收的时候发现接收到的`User`为null
 
-![](https://ws4.sinaimg.cn/large/006tNc79ly1fz7j28d4kfj30mc04uglz.jpg)
+![](http://ws4.sinaimg.cn/large/006tNc79ly1fz7j28d4kfj30mc04uglz.jpg)
 
 然后从网上查资料才知道需要在实现类的入参中也加入`@RequestBody `注解，这样才能接收到参数。但是不禁有个疑问，我们查看`@RequestMapping`和`@RequestBody`这两个注解的代码中都没有`@Inherited`这个可支持继承的注解，那么`@RequestMapping `为什么能发挥作用？而`@RequestBody `却不能发挥作用呢？
 
