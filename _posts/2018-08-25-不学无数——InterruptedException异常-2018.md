@@ -140,10 +140,10 @@ public class TaskRunner implements Runnable {
 
 ## 参考文章
 
-* [https://blog.csdn.net/sinat_34596644/article/details/51405327](https://blog.csdn.net/sinat_34596644/article/details/51405327)
+* [http://blog.csdn.net/sinat_34596644/article/details/51405327](http://blog.csdn.net/sinat_34596644/article/details/51405327)
 
-* [https://blog.csdn.net/u011784767/article/details/51428101](https://blog.csdn.net/u011784767/article/details/51428101)
+* [http://blog.csdn.net/u011784767/article/details/51428101](http://blog.csdn.net/u011784767/article/details/51428101)
 
-* [https://www.ibm.com/developerworks/cn/java/j-jtp05236.html](https://www.ibm.com/developerworks/cn/java/j-jtp05236.html)
+* [http://www.ibm.com/developerworks/cn/java/j-jtp05236.html](http://www.ibm.com/developerworks/cn/java/j-jtp05236.html)
 
-* [https://blog.csdn.net/pange1991/article/details/53860651](https://blog.csdn.net/pange1991/article/details/53860651)
+* [http://blog.csdn.net/pange1991/article/details/53860651](http://blog.csdn.net/pange1991/article/details/53860651)

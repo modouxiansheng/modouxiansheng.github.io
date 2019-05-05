@@ -113,7 +113,7 @@ public class BeanFactoryTest extends BaseTest{
 
 此时我们Debug也能看到其我们自动注入的`User`类就是通过`UserFactory `创建的实例
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fz1l23dq53j30sy0e8dhf.jpg)
+![](http://ws2.sinaimg.cn/large/006tNc79ly1fz1l23dq53j30sy0e8dhf.jpg)
 
 ## 加载顺序
 
@@ -250,14 +250,14 @@ public class SingleBeanFactoryTest extends BaseTest{
 ```
 我们查看类的路径就可以知道哪些类是一样的了
 
-![](https://ws1.sinaimg.cn/large/006tNc79ly1fz1mkiw93qj30dm05ogmz.jpg)
+![](http://ws1.sinaimg.cn/large/006tNc79ly1fz1mkiw93qj30dm05ogmz.jpg)
 
 从结果中我们可以看到`SingleUserFactory`工厂类创建的都是单例的对象，而`NonSingleUserFactory`创建的都是非单例的对象。如果是创建单例的那么就无需设置`singleton`的值，因为他是默认为`True`的。
 
 > 使用`FactoryBean `能够在Spring中更好更便捷的创建管理一些有着复杂构造逻辑的实体类。
 
 
-### 源码可在[github](https://github.com/modouxiansheng/Spring-Practice/tree/master/src/main/java/com/example/springpractice/springpractice/Spring/FactoryBean)中查看
+### 源码可在[github](http://github.com/modouxiansheng/Spring-Practice/tree/master/src/main/java/com/example/springpractice/springpractice/Spring/FactoryBean)中查看
 
 
 

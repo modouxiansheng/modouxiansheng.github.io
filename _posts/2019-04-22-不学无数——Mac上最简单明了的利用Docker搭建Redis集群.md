@@ -15,11 +15,11 @@ tags:                               #标签
 
 本文只是记录一下我在Mac上利用Docker搭建Redis集群成功后的步骤，期间走了许多的坑。有许多教程对于Mac用户不友好，搭建成功以后无法进行集群间的通信。
 
-首先说明一下有多简单，如果你机器上已经有了Docker，那么就一个步骤就行。如果没有Docker那么在[Docker下载](https://docs.docker.com/docker-for-mac/install/)下载一个就行。
+首先说明一下有多简单，如果你机器上已经有了Docker，那么就一个步骤就行。如果没有Docker那么在[Docker下载](http://docs.docker.com/docker-for-mac/install/)下载一个就行。
 
 接下来我们就开始进行Redis集群的搭建。
 
-首先先从[github](https://github.com/modouxiansheng/mac-docker-redis-cluster)。例如我的存放目录结构是如下
+首先先从[github](http://github.com/modouxiansheng/mac-docker-redis-cluster)。例如我的存放目录结构是如下
 
 ```
 /Users/hupengfei/myDocker/newRedis-cluster
@@ -60,6 +60,6 @@ OK
 
 ```
 
-此时集群就搭建成功了。此Git项目是参考[https://github.com/Grokzen/docker-redis-cluster](https://github.com/Grokzen/docker-redis-cluster)这个项目，只是根据Issues进行修改了一些东西使Mac用户能够更方便使用。
+此时集群就搭建成功了。此Git项目是参考[http://github.com/Grokzen/docker-redis-cluster](http://github.com/Grokzen/docker-redis-cluster)这个项目，只是根据Issues进行修改了一些东西使Mac用户能够更方便使用。
 
 如果你想修改集群中redis的配置信息，可以修改里面的`redis-cluster.tmpl`文件。修改完以后用`docker-compose build`完以后再启动就好了。

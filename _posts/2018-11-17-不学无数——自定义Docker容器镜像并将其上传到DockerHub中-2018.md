@@ -10,7 +10,7 @@ tags:                               #标签
     - 容器
 ---
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1g0f1o5o3rgj31500u0wtx.jpg)
+![](http://ws1.sinaimg.cn/large/006tKfTcly1g0f1o5o3rgj31500u0wtx.jpg)
 
 # 自定义Docker容器镜像并将其上传到DockerHub中
 
@@ -20,8 +20,8 @@ Docker从2013年发布至今，一直是广受瞩目，所以我们或多或少�
 
 在开始我们的实践之前，我们当然得在机器上安装Docker，请参考官方文档
 
-* [Mac安装方法](https://docs.docker.com/docker-for-mac/install/)
-* [Windows安装方法](https://docs.docker.com/docker-for-windows/install/)
+* [Mac安装方法](http://docs.docker.com/docker-for-mac/install/)
+* [Windows安装方法](http://docs.docker.com/docker-for-windows/install/)
 
 安装完Docker以后我们就需要编写我们要部署的项目代码了，我们简单的部署一个用Python编写的Web应用，如果是之前部署到虚拟机中的话我们得在虚拟机中安装各种环境才能将此项目部署成功。而现在在Docker中我们只需要一个文件就能将环境全部打包成一个镜像并且运行。
 
@@ -157,11 +157,11 @@ CONTAINER ID        IMAGE               COMMAND             CREATED
 
 ## 上传镜像到DockerHub中
 
-1. 在[Docker Hub](https://hub.docker.com/)上注册账号
+1. 在[Docker Hub](http://hub.docker.com/)上注册账号
 
 2. 登录进去后在主页点击Create a Repository
 
-	![](https://ws2.sinaimg.cn/large/006tKfTcly1g0ez7ukqztj314m0u0wiu.jpg)
+	![](http://ws2.sinaimg.cn/large/006tKfTcly1g0ez7ukqztj314m0u0wiu.jpg)
 
 3. 填写信息
 
@@ -179,11 +179,11 @@ CONTAINER ID        IMAGE               COMMAND             CREATED
 
 6. 将刚才所自定义的镜像上传上去，命令是`docker push buxuewushu/helloworld:v1`，其中`buxuewushu`是换成自己的账号，后面是刚才打的标签名
 
-	![](https://ws2.sinaimg.cn/large/006tKfTcly1g0f09i6ezjj313s09m0v5.jpg)
+	![](http://ws2.sinaimg.cn/large/006tKfTcly1g0f09i6ezjj313s09m0v5.jpg)
 
-7. 此时你就可以在[Docker Hub](https://hub.docker.com/)中看到自己上传的镜像了
+7. 此时你就可以在[Docker Hub](http://hub.docker.com/)中看到自己上传的镜像了
 
-	![](https://ws3.sinaimg.cn/large/006tKfTcly1g0f0a4xgszj31pq0i475y.jpg)
+	![](http://ws3.sinaimg.cn/large/006tKfTcly1g0f0a4xgszj31pq0i475y.jpg)
 
 ## 参考文章
 

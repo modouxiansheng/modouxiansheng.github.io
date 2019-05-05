@@ -154,10 +154,10 @@ public class MyWebMvcConfigu implements BeanFactoryAware {
 
 然后我们就可以发现再重新调用以后子类没有加入`@RequestBody`注解也能够接收到实体类了
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fz8i3r4a98j31e80sk0wl.jpg)
+![](http://ws2.sinaimg.cn/large/006tNc79ly1fz8i3r4a98j31e80sk0wl.jpg)
 
 ## 参考文章
 
-* [https://blog.csdn.net/phoebechen_gz/article/details/82500904](https://blog.csdn.net/phoebechen_gz/article/details/82500904)
-* [https://blog.csdn.net/congcong68/article/details/40900713](https://blog.csdn.net/congcong68/article/details/40900713)
+* [http://blog.csdn.net/phoebechen_gz/article/details/82500904](http://blog.csdn.net/phoebechen_gz/article/details/82500904)
+* [http://blog.csdn.net/congcong68/article/details/40900713](http://blog.csdn.net/congcong68/article/details/40900713)
 
