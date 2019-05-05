@@ -113,7 +113,7 @@ public class BeanFactoryTest extends BaseTest{
 
 此时我们Debug也能看到其我们自动注入的`User`类就是通过`UserFactory `创建的实例
 
-![](http://ws2.sinaimg.cn/large/006tNc79ly1fz1l23dq53j30sy0e8dhf.jpg)
+![](/img/pageImg/如何使用Spring的FactoryBean接口0.jpg)
 
 ## 加载顺序
 
@@ -153,7 +153,7 @@ public class UserFactory implements FactoryBean<User> {
 
 此时我们运行就会发现执行顺序
 
-![](http://ws4.sinaimg.cn/large/006tNc79ly1fz1lab5wihj30hh0a3jsv.jpg)
+![](/img/pageImg/如何使用Spring的FactoryBean接口1.jpg)
 
 ## `AbstractFactoryBean `类
 
@@ -250,7 +250,7 @@ public class SingleBeanFactoryTest extends BaseTest{
 ```
 我们查看类的路径就可以知道哪些类是一样的了
 
-![](http://ws1.sinaimg.cn/large/006tNc79ly1fz1mkiw93qj30dm05ogmz.jpg)
+![](/img/pageImg/如何使用Spring的FactoryBean接口2.jpg)
 
 从结果中我们可以看到`SingleUserFactory`工厂类创建的都是单例的对象，而`NonSingleUserFactory`创建的都是非单例的对象。如果是创建单例的那么就无需设置`singleton`的值，因为他是默认为`True`的。
 

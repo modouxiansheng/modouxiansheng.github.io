@@ -32,14 +32,14 @@ tags:                               #标签
 
 在`ResultSetMetaData.getClassNameForJavaType()`的方法中可以看到Mysql字段对应的Java字段，我们可以得知在Mysql中查询的count得到的数据库类型是BigInt类型的对应的Java类型是Long
 
-![image](http://upload-images.jianshu.io/upload_images/13146186-c5f3f685da61fb01.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](/img/pageImg/Mybatis中Oracle和Mysql的Count字段问题0.jpg)
 
 ## 解决办法
 
 * 改代码，将接收的`Map<String, BigDecimal>`改为`Map<String, Object>`，然后进行类型转换
 * 改Sql
 
-![image](http://upload-images.jianshu.io/upload_images/13146186-8205483f73f24536.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](/img/pageImg/Mybatis中Oracle和Mysql的Count字段问题1.jpg)
 
 我们可以看到在Mysql中的Decimal和Numeric类型的都被转化为了BigDecimal，所以在Sql文件中进行类型转换就行
 

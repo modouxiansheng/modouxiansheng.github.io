@@ -18,47 +18,47 @@ tags:                               #标签
 
 ### 1. 点击Idea下的File新建一个Project
 
-![](http://ws2.sinaimg.cn/large/006tNc79ly1fz9t3abd5yj30ll04fdkb.jpg)
+![](/img/pageImg/使用IDEA创建SpringBoot Gradle多项目工程0.jpg)
 
 ### 2. 由于使用的Gradle，所以此处选择Gradle项目创建
 
-![](http://ws1.sinaimg.cn/large/006tNc79ly1fz9sl0aqznj30yz0u07ak.jpg)
+![](/img/pageImg/使用IDEA创建SpringBoot Gradle多项目工程1.jpg)
 
 ### 3. GroupId可以不用填写，Artifactid随喜好自己起个名字
 
-![](http://ws2.sinaimg.cn/large/006tNc79ly1fz9snwnfkjj31c00jmjt1.jpg)
+![](/img/pageImg/使用IDEA创建SpringBoot Gradle多项目工程2.jpg)
 
 ### 4. 选择Gradle
 
-![](http://ws3.sinaimg.cn/large/006tNc79ly1fz9sohcgdbj31dc0kggp4.jpg)
+![](/img/pageImg/使用IDEA创建SpringBoot Gradle多项目工程3.jpg)
 
 ### 5. 此时一个Gradle的项目已经创建好了
 
-![](http://ws4.sinaimg.cn/large/006tNc79ly1fz9sorvtfaj30ih0bdgm9.jpg)
+![](/img/pageImg/使用IDEA创建SpringBoot Gradle多项目工程4.jpg)
 
 ### 6. 然后如果点击创建一个Module
 
-![](http://ws1.sinaimg.cn/large/006tNc79ly1fz9sq27544j30kx050myg.jpg)
+![](/img/pageImg/使用IDEA创建SpringBoot Gradle多项目工程5.jpg)
 
 ### 7. 由于要创建SpringBoot项目，所以如下图进行选择
 
-![](http://ws3.sinaimg.cn/large/006tNc79ly1fz9sqneuv5j31cy0eaju7.jpg)
+![](/img/pageImg/使用IDEA创建SpringBoot Gradle多项目工程6.jpg)
 
 ### 8. 填写基本信息，此时注意Type选择Gradle
 
-![](http://ws3.sinaimg.cn/large/006tNc79ly1fz9sw2urqoj317t0u042r.jpg)
+![](/img/pageImg/使用IDEA创建SpringBoot Gradle多项目工程7.jpg)
 
 ### 9. 选择自己想要的SpringBoot初始化加载的Jar包
 
-![](http://ws2.sinaimg.cn/large/006tNc79ly1fz9st6i8b1j31ek0re7cg.jpg)
+![](/img/pageImg/使用IDEA创建SpringBoot Gradle多项目工程8.jpg)
 
 ### 10. 此时一个Module就已经创建好了，并且拥有自己的启动类
 
-![](http://ws3.sinaimg.cn/large/006tNc79ly1fz9tblldmxj30k005s74n.jpg)
+![](/img/pageImg/使用IDEA创建SpringBoot Gradle多项目工程9.jpg)
 
 ### 11. 相同的办法创建另一个Module
 
-![](http://ws2.sinaimg.cn/large/006tNc79ly1fz9t0ec6yrj30i308i3z4.jpg)
+![](/img/pageImg/使用IDEA创建SpringBoot Gradle多项目工程10.jpg)
 
 此时两个模块的项目已经创建完了，Gradle下载的Jar包的时候会特别慢，这时候可以在Gradle中将下载源给换了，换成阿里的国内镜像。镜像地址
 
@@ -69,7 +69,7 @@ maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
 
 在各个build.gradle文件中在`repositories`中加入此地址就行
 
-![](http://ws3.sinaimg.cn/large/006tNc79ly1fz9tn0map3j30yq09v75x.jpg)
+![](/img/pageImg/使用IDEA创建SpringBoot Gradle多项目工程11.jpg)
 
 
 ### [项目地址](http://github.com/modouxiansheng/SpringBoot-Practice)

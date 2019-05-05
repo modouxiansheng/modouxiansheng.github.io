@@ -20,7 +20,7 @@ ExcelXmlModelFactory.class.getClassLoader().getResource("template/").getPath()
 ```
 我的资源文件存放路径如下
 
-![image](http://upload-images.jianshu.io/upload_images/13146186-e6ae2e069cb49a80.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](/img/pageImg/SpringBoot打jar包或war包获取不到资源文件解决办法 0.jpg)
 
 在本地中打印的日志路径为
 
@@ -73,7 +73,7 @@ file:/Users/hupengfei/git/Test/out/production/classes/Practice/Day13/
 
 那么如果在`resource`下有三个资源文件
 
-![image](http://upload-images.jianshu.io/upload_images/13146186-6f0fc01fa8909a04.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](/img/pageImg/SpringBoot打jar包或war包获取不到资源文件解决办法 1.jpg)
 
 那么该怎么获取这三个文件呢，因为在class文件夹中的目录结构如下
 
@@ -154,11 +154,11 @@ null
 ```
 可以看到在这穿进去的为`/`
 
-![image](http://upload-images.jianshu.io/upload_images/13146186-de65495e37d217b1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](/img/pageImg/SpringBoot打jar包或war包获取不到资源文件解决办法 2.jpg)
 
 传出的是
 
-![image](http://upload-images.jianshu.io/upload_images/13146186-7ac677c9c08a923f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](/img/pageImg/SpringBoot打jar包或war包获取不到资源文件解决办法 3.jpg)
 
 
 ## 参考文章

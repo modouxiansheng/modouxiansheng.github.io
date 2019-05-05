@@ -10,7 +10,7 @@ tags:                               #标签
     - 容器
 ---
 
-![](http://ws1.sinaimg.cn/large/006tKfTcly1g0f1o5o3rgj31500u0wtx.jpg)
+![](/img/pageImg/自定义Docker容器镜像并将其上传到DockerHub中0.jpg)
 
 # 自定义Docker容器镜像并将其上传到DockerHub中
 
@@ -161,15 +161,15 @@ CONTAINER ID        IMAGE               COMMAND             CREATED
 
 2. 登录进去后在主页点击Create a Repository
 
-	![](http://ws2.sinaimg.cn/large/006tKfTcly1g0ez7ukqztj314m0u0wiu.jpg)
+	![](/img/pageImg/自定义Docker容器镜像并将其上传到DockerHub中1.jpg)
 
 3. 填写信息
 
-	![](http://ws4.sinaimg.cn/large/006tKfTcly1g0ez9psvb7j30u00vin2d.jpg)
+	![](/img/pageImg/自定义Docker容器镜像并将其上传到DockerHub中2.jpg)
 
 4. 在本机登录自己的Docker Hub 账号，命令是`docker login`
 
-	![](http://ws4.sinaimg.cn/large/006tKfTcly1g0ezccdbbgj31f005igmz.jpg)
+	![](/img/pageImg/自定义Docker容器镜像并将其上传到DockerHub中3.jpg)
 
 5. 用`docker tag`命令为自己的镜像取一个完整的名字包括版本号，v1为版本号
 
@@ -179,16 +179,16 @@ CONTAINER ID        IMAGE               COMMAND             CREATED
 
 6. 将刚才所自定义的镜像上传上去，命令是`docker push buxuewushu/helloworld:v1`，其中`buxuewushu`是换成自己的账号，后面是刚才打的标签名
 
-	![](http://ws2.sinaimg.cn/large/006tKfTcly1g0f09i6ezjj313s09m0v5.jpg)
+	![](/img/pageImg/自定义Docker容器镜像并将其上传到DockerHub中4.jpg)
 
 7. 此时你就可以在[Docker Hub](http://hub.docker.com/)中看到自己上传的镜像了
 
-	![](http://ws3.sinaimg.cn/large/006tKfTcly1g0f0a4xgszj31pq0i475y.jpg)
+	![](/img/pageImg/自定义Docker容器镜像并将其上传到DockerHub中5.jpg)
 
 ## 参考文章
 
 本文的例子参考自极客时间中张磊写的深入剖析Kubernetes，有兴趣的可以查看
 
-![](http://ws4.sinaimg.cn/large/006tKfTcly1g0f6kn6rsdj30u01hcdk2.jpg)
+![](/img/pageImg/自定义Docker容器镜像并将其上传到DockerHub中6.jpg)
 
 
